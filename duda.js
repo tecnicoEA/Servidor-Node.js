@@ -25,7 +25,7 @@ var server = net.createServer(function(socket) {
   my_user="Pepe";
   my_password="1234";
 
-  function check(my_user, my_password, function(resultado){
+  check(my_user, my_password, function(result){
     console.log(result); //result=10 (ok)
     my_var=result;
   }
